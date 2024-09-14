@@ -16,3 +16,16 @@ const fetchData =  async() =>{
 }
 
 fetchData();
+
+
+
+
+//// local and session storage 
+
+
+
+localStorage.setItem("token", "lsdhfbvjasdnvkjasnvkjsf");
+console.log(localStorage.getItem("token"));
+localStorage.clear();
+
+sessionStorage.setItem("token", "dshfvbshjfd"); 
