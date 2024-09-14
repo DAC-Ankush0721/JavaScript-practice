@@ -13,5 +13,9 @@
 
    var x = 20;
    x =40;
-   console.log(x);
+   console.log(x);     
+
+
+
+   // the diffrence between let and var is let is block-scoped and does not hoist the variable, while var is function-scoped and hoists the variable to the top of its scope.
    
